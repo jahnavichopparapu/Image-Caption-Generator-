@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
-# ✅ Confirmation message
+# Confirmation message
 print("Model loaded successfully")
 
 def generate_caption(image_path):
